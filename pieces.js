@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Update the initial board with the flipped board configuration
+
         for (let row = 0; row < 8; row++) {
             for (let col = 0; col < 8; col++) {
                 initialBoard[row][col] = flippedBoard[row][col];
