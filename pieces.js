@@ -1,3 +1,6 @@
+/*
+    These are the codes for all the pieces  activity
+*/
 const pieces = {
     white: {
         pawn: '♙', knight: '♘', bishop: '♗', rook: '♖', queen: '♕', king: '♔'
@@ -6,6 +9,8 @@ const pieces = {
         pawn: '♟', knight: '♞', bishop: '♝', rook: '♜', queen: '♛', king: '♚'
     }
 };
+
+
 
 const initialBoard = [
     ['black_rook', 'black_knight', 'black_bishop', 'black_queen', 'black_king', 'black_bishop', 'black_knight', 'black_rook'],
