@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const chessBoard = document.getElementById('chess-board');
     const flipButton = document.getElementById('flip-button');
@@ -27,3 +28,4 @@ document.addEventListener('DOMContentLoaded', () => {
     flipButton.addEventListener('click', flipBoard);
     createChessBoard();
 });
+
